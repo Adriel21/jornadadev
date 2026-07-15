@@ -1,9 +1,9 @@
 FUNCTION Main()
-    LOCAL cNome := "Adriel"         // Vari†vel 
+    LOCAL cNome := "Adriel"         // Vari√°vel 
     LOCAL cCidade := "Francisco Morato"       
     LOCAL cCurso := "Harbour/ADVPL"         
     QOut("==============================")
-    QOut("  FICHA DE APRESENTAÄ«O   ")
+    QOut("  FICHA DE APRESENTA√á√ÉO   ")
     QOut("==============================")
     QOut("Nome: " + cNome)            
     QOut("Cidade: " + cCidade)       
