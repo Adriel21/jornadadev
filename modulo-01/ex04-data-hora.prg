@@ -4,14 +4,14 @@ FUNCTION Main()
     LOCAL cCurso := "Harbour/ADVPL"
     LOCAL dataAtual,horaAtual
 
-    SET DATE FORMAT "dd/mm/yyyy"   // para definir o padrÆo br
-    SET CENTURY ON                  // garantir exibi‡Æo do ano com 4 d¡gitos
+    SET DATE FORMAT "dd/mm/yyyy"   // para definir o padrï¿½o br
+    SET CENTURY ON                  // garantir exibiï¿½ï¿½o do ano com 4 dï¿½gitos
 
     dataAtual := Dtoc(Date())
     horaAtual := Time()
 
     QOut("==============================")
-    QOut("  FICHA DE APRESENTA€ÇO   ")
+    QOut("  FICHA DE APRESENTAÃ‡ÃƒO   ")
     QOut("  " + dataAtual + " " + horaAtual)
     QOut("==============================")
     QOut("Nome: " + cNome)
